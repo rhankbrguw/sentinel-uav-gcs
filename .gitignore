@@ -1,0 +1,35 @@
+# Python Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model Checkpoints & Weights
+*.pt
+*.onnx
+*.engine
+*.weights
+*.bin
+
+# Video and Media dumps
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# Logs & Configs
+logs/
+*.log
+config.yaml
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
